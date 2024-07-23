@@ -66,7 +66,7 @@ export const products: Category[] = [
       },
       {
         name: "iPhone SE",
-        releases: ["2016-03-31", "2017-03-21", "2020-04-24","2022-03-18"],
+        releases: ["2016-03-31", "2017-03-21", "2020-04-24", "2022-03-18"],
       },
       {
         name: "iPad Mini",
@@ -76,7 +76,7 @@ export const products: Category[] = [
           "2014-10-16",
           "2015-09-09",
           "2019-03-18",
-          "2021-09-14"
+          "2021-09-14",
         ],
       },
     ],
@@ -85,8 +85,25 @@ export const products: Category[] = [
     name: "Music",
     products: [
       {
+        name: "AirPods Pro",
+        releases: ["2019-10-28","2022-09-07","2023-09-12"],
+      },
+      {
+        name: "HomePod",
+        releases: ["2018-02-09","2023-02-03"],
+      },
+      {
+        name: "AirPod",
+        releases: ["2016-11-03","2019-03-20","2021-10-26"],
+      },
+      {
+        name: "AirPods Max",
+        releases: ["2020-11-15"],
+        estimatedUpdate: 1460,
+      },
+      {
         name: "HomePod Mini",
-        releases: ["2020-10-13"],
+        releases: ["2020-11-16"],
         estimatedUpdate: 1825,
       },
     ],
