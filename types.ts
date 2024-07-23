@@ -5,7 +5,6 @@ export interface Category {
 
 export interface Product {
   name: string;
-  current: string;
   recentReleases: string[];
   estimatedUpdate?: number;
 }
