@@ -86,15 +86,15 @@ export const products: Category[] = [
     products: [
       {
         name: "AirPods Pro",
-        releases: ["2019-10-28","2022-09-07","2023-09-12"],
+        releases: ["2019-10-28", "2022-09-07", "2023-09-12"],
       },
       {
         name: "HomePod",
-        releases: ["2018-02-09","2023-02-03"],
+        releases: ["2018-02-09", "2023-02-03"],
       },
       {
         name: "AirPod",
-        releases: ["2016-11-03","2019-03-20","2021-10-26"],
+        releases: ["2016-11-03", "2019-03-20", "2021-10-26"],
       },
       {
         name: "AirPods Max",
@@ -105,6 +105,48 @@ export const products: Category[] = [
         name: "HomePod Mini",
         releases: ["2020-11-16"],
         estimatedUpdate: 1825,
+      },
+    ],
+  },
+  {
+    name: "Watch/Other",
+    products: [
+      {
+        name: "Vision Pro",
+        releases: ["2024-02-02"],
+        estimatedUpdate: 1460,
+      },
+      {
+        name: "Apple Watch",
+        releases: [
+          "2017-09-22",
+          "2018-09-21",
+          "2019-09-20",
+          "2020-09-18",
+          "2021-10-15",
+          "2022-09-16",
+          "2023-09-22",
+        ],
+      },
+      {
+        name: "Apple Watch Ultra",
+        releases: ["2022-09-23", "2023-09-22"],
+      },
+      {
+        name: "Apple TV",
+        releases: [
+          "2020-09-01",
+          "2012-03-07",
+          "2013-03-10",
+          "2015-10-30",
+          "2017-09-22",
+          "2021-05-21",
+          "2022-11-04",
+        ],
+      },
+      {
+        name: "Apple Watch SE",
+        releases: ["2020-09-18", "2020-09-16"],
       },
     ],
   },
