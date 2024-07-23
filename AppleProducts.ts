@@ -146,7 +146,7 @@ export const products: Category[] = [
       },
       {
         name: "Apple Watch SE",
-        releases: ["2020-09-18", "2020-09-16"],
+        releases: ["2020-09-18", "2022-09-16"],
       },
     ],
   },
